@@ -1,0 +1,790 @@
+{
+  "HOSangGaxyS6ede+InioNGPFlleCase": {
+    "offerId": "HOSangGaxyS6ede+InioNGPFlleCase",
+    "familyId": "HOSangGaxyS6ede+InioNGPFlleCase",
+    "familyName": "",
+    "categories": "",
+    "categoryName": "",
+    "offerType": "Base",
+    "offerSubType": "HardGood",
+    "offerLevel": "",
+    "productType": "Accessory",
+    "productSubType": "OtherAccessory",
+    "url": "/prepaid/accessories/hosanggaxys6ede_iniongpfllecase",
+    "productName": "Samsung Galaxy S®6 edge+ Incipio® NGP Flexible Case",
+    "productManufacturer": "Incipio",
+    "description": "Durable protection that's soft to the touch. Semi-rigid shell reduces shock, and helps prevent scratches, stretching, and tearing. Smooth matte finish reduces slipping. Wraparound design makes the case easy to attach and remove. Buttons and controls remain easy to use. Perfect for your on-the-go lifestyle.",
+    "shortDescription": "Durable protection that's soft to the touch. Semi-rigid shell reduces shock, and helps prevent scratches, stretching, and tearing. Smooth matte finish reduces slipping. Wraparound design makes the case easy to attach and remove.",
+    "longDescription": "",
+    "priority": "100",
+    "operatingSystem": "",
+    "otherData": {
+      "@productOfferingId": "HOSangGaxyS6ede+InioNGPFlleCase",
+      "name": "Samsung Galaxy S®6 edge+ Incipio® NGP Flexible Case",
+      "description": [
+        {
+          "@languageCode": "en",
+          "@usageContext": "UI_DESC",
+          "@salesChannelCode": "ALL",
+          "#text": "Durable protection that's soft to the touch. Semi-rigid shell reduces shock, and helps prevent scratches, stretching, and tearing. Smooth matte finish reduces slipping. Wraparound design makes the case easy to attach and remove. Buttons and controls remain easy to use. Perfect for your on-the-go lifestyle."
+        }
+      ],
+      "shortDescription": [
+        {
+          "@languageCode": "en",
+          "@usageContext": "UI_DESC",
+          "@salesChannelCode": "ALL",
+          "#text": "Durable protection that's soft to the touch. Semi-rigid shell reduces shock, and helps prevent scratches, stretching, and tearing. Smooth matte finish reduces slipping. Wraparound design makes the case easy to attach and remove."
+        }
+      ],
+      "longDescription": [
+        {
+          "descriptionCode": "UI_DESC",
+          "salesChannelCode": "ALL",
+          "languageCode": "en",
+          "relativeSize": "Long",
+          "contentType": "Text",
+          "descriptionText": "Durable protection that's soft to the touch. Semi-rigid shell reduces shock, and helps prevent scratches, stretching, and tearing. Smooth matte finish reduces slipping. Wraparound design makes the case easy to attach and remove. Buttons and controls remain easy to use. Perfect for your on-the-go lifestyle."
+        }
+      ],
+      "alternateDescription": [
+        {
+          "descriptionCode": "PURCHASE_RESTRICTIONS",
+          "salesChannelCode": "ALL",
+          "languageCode": "en",
+          "relativeSize": "Short",
+          "contentType": "Text",
+          "descriptionText": "N/A"
+        }
+      ],
+      "offerType": "Base",
+      "offerSubType": "HardGood",
+      "offeringClassification": [
+        {
+          "classificationCode": "itemCategory",
+          "nameValue": "CASES & COVERS"
+        },
+        {
+          "classificationCode": "itemSubCategory",
+          "nameValue": "SLIM"
+        },
+        {
+          "classificationCode": "itemSubSubCategory",
+          "nameValue": "FLEX PROTECTIVE COVER"
+        }
+      ],
+      "brand": "T-Mobile",
+      "businessUnit": "Magenta",
+      "productType": [
+        "Accessory"
+      ],
+      "productSubType": [
+        "OtherAccessory"
+      ],
+      "priority": 100,
+      "image": [
+        {
+          "@id": "ACCESSORY_LARGE_THUMBNAIL_CODE",
+          "uri": "/images/png/products/accessories/TMOA64289/TMOA64289-largethumbnail.png",
+          "sku": [
+            "TMOA64289"
+          ],
+          "searchableColor": [
+            "Grey"
+          ],
+          "displayPurpose": [
+            "a_lg_thmb"
+          ]
+        },
+        {
+          "@id": "Accessory Thumb_Image_Path_PNG",
+          "uri": "/images/png/products/accessories/TMOA64289/TMOA64289-small.png",
+          "sku": [
+            "TMOA64289"
+          ],
+          "searchableColor": [
+            "Grey"
+          ],
+          "displayPurpose": [
+            "d_ac_th_pn"
+          ]
+        },
+        {
+          "@id": "Accessory Full_Image_Path_PNG",
+          "uri": "/images/png/products/accessories/TMOA64289/TMOA64289-large.png",
+          "sku": [
+            "TMOA64289"
+          ],
+          "searchableColor": [
+            "Grey"
+          ],
+          "displayPurpose": [
+            "d_ac_fl_pn"
+          ]
+        },
+        {
+          "@id": "ACCESSORY_MIDSIZE_CODE",
+          "uri": "/images/png/products/accessories/TMOA64289/TMOA64289-midsize.png",
+          "sku": [
+            "TMOA64289"
+          ],
+          "searchableColor": [
+            "Grey"
+          ],
+          "displayPurpose": [
+            "a_mid"
+          ]
+        },
+        {
+          "@id": "ACCESSORY_LARGE_THUMBNAIL_CODE",
+          "uri": "/images/png/products/accessories/TMOA64290/TMOA64290-largethumbnail.png",
+          "sku": [
+            "TMOA64290"
+          ],
+          "searchableColor": [
+            "Green"
+          ],
+          "displayPurpose": [
+            "a_lg_thmb"
+          ]
+        },
+        {
+          "@id": "Accessory Thumb_Image_Path_PNG",
+          "uri": "/images/png/products/accessories/TMOA64290/TMOA64290-small.png",
+          "sku": [
+            "TMOA64290"
+          ],
+          "searchableColor": [
+            "Green"
+          ],
+          "displayPurpose": [
+            "d_ac_th_pn"
+          ]
+        },
+        {
+          "@id": "Accessory Full_Image_Path_PNG",
+          "uri": "/images/png/products/accessories/TMOA64290/TMOA64290-large.png",
+          "sku": [
+            "TMOA64290"
+          ],
+          "searchableColor": [
+            "Green"
+          ],
+          "displayPurpose": [
+            "d_ac_fl_pn"
+          ]
+        },
+        {
+          "@id": "ACCESSORY_MIDSIZE_CODE",
+          "uri": "/images/png/products/accessories/TMOA64290/TMOA64290-midsize.png",
+          "sku": [
+            "TMOA64290"
+          ],
+          "searchableColor": [
+            "Green"
+          ],
+          "displayPurpose": [
+            "a_mid"
+          ]
+        }
+      ],
+      "marketingMessage": [
+        {
+          "salesChannelCode": "ALL",
+          "relativeSize": "MEDIUM",
+          "messagePart": {
+            "messageText": [
+              {
+                "@languageCode": "en",
+                "#text": "HOSangGaxyS6ede+InioNGPFlleCase – Missing Marketing Message"
+              }
+            ]
+          }
+        }
+      ],
+      "equipmentCharacteristics": {
+        "model": "Galaxy S®6 edge+ Incipio® NGP Flexible Case",
+        "manufacturer": "Incipio",
+        "color": "Smoke,Aqua"
+      },
+      "productSpecification": [
+        {
+          "rankedSpecificationGroup": [
+            {
+              "groupName": "Audio",
+              "specificationValue": [
+                {
+                  "name": "Audio Port"
+                }
+              ]
+            },
+            {
+              "groupName": "Battery",
+              "specificationValue": [
+                {
+                  "name": "BatteryCharge"
+                },
+                {
+                  "name": "BatteryDescription",
+                  "value": "N/A"
+                },
+                {
+                  "name": "BatteryStandbyTime",
+                  "value": "N/A"
+                },
+                {
+                  "name": "BatteryTalkTime",
+                  "value": "N/A"
+                }
+              ]
+            },
+            {
+              "groupName": "CallingFeatures",
+              "specificationValue": [
+                {
+                  "name": "Wi-FiSynch"
+                }
+              ]
+            },
+            {
+              "groupName": "Charging",
+              "specificationValue": [
+                {
+                  "name": "ChargingPin",
+                  "value": "N/A"
+                }
+              ]
+            },
+            {
+              "groupName": "Connectivity",
+              "specificationValue": [
+                {
+                  "name": "Bluetooth",
+                  "value": "false"
+                },
+                {
+                  "name": "NFC",
+                  "value": "false"
+                }
+              ]
+            },
+            {
+              "groupName": "Dimensions",
+              "specificationValue": [
+                {
+                  "name": "DeviceFamilyName",
+                  "value": "Sam GS®6 edge+"
+                },
+                {
+                  "name": "DeviceOEM",
+                  "value": "Samsung"
+                },
+                {
+                  "name": "Height"
+                },
+                {
+                  "name": "Length"
+                },
+                {
+                  "name": "Unit"
+                },
+                {
+                  "name": "Weight"
+                },
+                {
+                  "name": "Weight Unit"
+                },
+                {
+                  "name": "Width"
+                }
+              ]
+            },
+            {
+              "groupName": "Listening",
+              "specificationValue": [
+                {
+                  "name": "HearingAid"
+                }
+              ]
+            },
+            {
+              "groupName": "Memory",
+              "specificationValue": [
+                {
+                  "name": "expandableMemory",
+                  "value": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "relatedOffering": {
+        "incompatible": {
+          "Line": [
+            "HOALELONCHEvve",
+            "HOALELONCHEvve2",
+            "HOALELONCHFICEXL",
+            "HOALELONCHFice2",
+            "HOALELONCHPOPAsro",
+            "HOAlel506A",
+            "HOApleiPne4S",
+            "HOApleiPne5",
+            "HOApleiPne5c",
+            "HOApleiPne5s",
+            "HOApleiPne6Plus",
+            "HOApleiPne6s",
+            "HOApleiPne6sPlus",
+            "HOApleiPneSE",
+            "HOAppleIphone6",
+            "HOBlry5810",
+            "HOBlry6210",
+            "HOBlry870g",
+            "HOBlry8800",
+            "HOBlryClic",
+            "HOBlryCuve",
+            "HOBlryCuve8520",
+            "HOBlryCuve9315",
+            "HOBlryPRIV",
+            "HOBlryPerl8100",
+            "HOBlryPerl8120",
+            "HOBlryPerlFlip8220",
+            "HOCoadRoue",
+            "HOGoleNeus5",
+            "HOGoleNeus6",
+            "HOHTCDere626s",
+            "HOHTCOne",
+            "HOHTCOneM8",
+            "HOHTCOneM8forWiws",
+            "HOHTCOneM9",
+            "HOHTCTochPro2",
+            "HOKyraHyroWave",
+            "HOKyraRaly",
+            "HOLG450",
+            "HOLGG2",
+            "HOLGG3",
+            "HOLGG4",
+            "HOLGG5",
+            "HOLGGFlex",
+            "HOLGGS70RED",
+            "HOLGGStlo",
+            "HOLGK7",
+            "HOLGLeonLTE",
+            "HOLGOpusF3",
+            "HOLGOpusF3Q",
+            "HOLGOpusF6",
+            "HOLGOpusL90",
+            "HOLGOpusOne",
+            "HOLGSeioNavyBlue",
+            "HOLGV10",
+            "HOMiftLuia435",
+            "HOMiftLuia640",
+            "HOMolaACTV",
+            "HOMolaC650",
+            "HOMolaCHRMwithMOUR",
+            "HOMolaCLIQ",
+            "HOMolaCLIQXT",
+            "HOMolaDEFYwithMOUR",
+            "HOMolaKRZRK1",
+            "HOMolaP280",
+            "HOMolaPEBL",
+            "HOMolaRAZRV3",
+            "HOMolaRAZRV3i",
+            "HOMolaROKRE8",
+            "HOMolaV180",
+            "HOMolaV188",
+            "HOMolaV190",
+            "HOMolaV235",
+            "HOMolaV300",
+            "HOMolaV330",
+            "HOMolaV360",
+            "HOMolaV66",
+            "HOMolaW490",
+            "HONoia1661",
+            "HONoia1680",
+            "HONoia2610",
+            "HONoia2760",
+            "HONoia3220",
+            "HONoia3390Gold",
+            "HONoia3595",
+            "HONoia5300Xpic",
+            "HONoia5310",
+            "HONoia5610",
+            "HONoia6010",
+            "HONoia6030",
+            "HONoia6061",
+            "HONoia6085Blue",
+            "HONoia6101TMleToGo",
+            "HONoia6103TMleToGo",
+            "HONoia6610",
+            "HONoia6800",
+            "HONoiaLuia521",
+            "HONoiaLuia530",
+            "HONoiaLuia635",
+            "HOSamsungGalaxyNote4",
+            "HOSamsungT199",
+            "HOSangA436",
+            "HOSangBeld",
+            "HOSangBlst",
+            "HOSangCock",
+            "HOSangGaxyAvnt",
+            "HOSangGaxyCorePrme",
+            "HOSangGaxyGrndPrme",
+            "HOSangGaxyJ7",
+            "HOSangGaxyLi47",
+            "HOSangGaxyLiht",
+            "HOSangGaxyNoe5",
+            "HOSangGaxyNote3",
+            "HOSangGaxyNoteEdge",
+            "HOSangGaxyNoteII",
+            "HOSangGaxyS4",
+            "HOSangGaxyS5",
+            "HOSangGaxyS6",
+            "HOSangGaxyS6edge",
+            "HOSangGaxyS6edgeplus",
+            "HOSangGaxyS7",
+            "HOSangGaxyS7edge",
+            "HOSangGaxySI58",
+            "HOSangGaxySIII",
+            "HOSangGaxySIIIL59",
+            "HOSangGaxySIIILTE",
+            "HOSangGrtyQ",
+            "HOSangGrtySmrt",
+            "HOSangGrtyT",
+            "HOSangHiht",
+            "HOSangStpeTMleToGo",
+            "HOSangTrce",
+            "HOSangd415",
+            "HOSange335",
+            "HOSange635",
+            "HOSange715",
+            "HOSangr25m",
+            "HOSangt209",
+            "HOSangt219",
+            "HOSangt29s",
+            "HOSangt509TMletoGo",
+            "HOSangt59sPlum",
+            "HOSangt609",
+            "HOSangt619",
+            "HOSangt629",
+            "HOSangt809",
+            "HOSangv205",
+            "HOSangx105",
+            "HOSangx475",
+            "HOSangx495",
+            "HOSickSick",
+            "HOSickSick3DWdeEdon",
+            "HOSickSick3TMleToGo",
+            "HOSickSick4G",
+            "HOSickSickIITMleToGo",
+            "HOSickSickLXBlue",
+            "HOSickSickSlde",
+            "HOSinsCF2T",
+            "HOSonyEronEqoxCOB",
+            "HOSonyEronGC89",
+            "HOSonyEronT610",
+            "HOSonyXpiaZ1S",
+            "HOSonyXpiaZ3",
+            "HOTMleCordII",
+            "HOTMleSick4G",
+            "HOZTEAvidPlus",
+            "HOZTEOban",
+            "HOZTEZMAX",
+            "HOmych3GFeerLiedEdon",
+            "HOmychmych",
+            "HOmychmychQ",
+            "HOmychmychQbyLG",
+            "HOmychmychbyLG",
+            "HOALELONCHPIXI7",
+            "HOALELONCHPOP7LTE",
+            "HOASUSASekCoerTFTLZ",
+            "HOASUSMeMOPadFHDLTE100",
+            "HOASUSViabRT",
+            "HOATTTrekHDtaet",
+            "HOAlelEnreZ",
+            "HOAlelONETOCHPOP8",
+            "HOAlelW80O",
+            "HOAmonKileFireLTE",
+            "HOAple129inchiPadPro",
+            "HOAple97inchiPadPro",
+            "HOApleiPad1",
+            "HOApleiPad2",
+            "HOApleiPad3rdGen",
+            "HOApleiPad4thGenwithRenadiay",
+            "HOApleiPad4thGenwithRenadiayLTE",
+            "HOApleiPadAi5",
+            "HOApleiPadAir",
+            "HOApleiPadAirZ",
+            "HOApleiPadMini",
+            "HOApleiPadMiniZ",
+            "HOApleiPadMiniwithRenaDiayZ",
+            "HOApleiPadPro",
+            "HOApleiPadmini2",
+            "HOApleiPadmini3",
+            "HOApleiPadmini4",
+            "HOAppleiPadAir2",
+            "HOBAONBAON",
+            "HODellLadeST",
+            "HODellVeue11Pro7130and5130",
+            "HOHPChok14",
+            "HOHPDM1",
+            "HOHPElad",
+            "HOHPEnvy",
+            "HOHPLT11",
+            "HOHPSlte10",
+            "HOHPSlte7",
+            "HOHPStam8",
+            "HOHueiHueiME36LTE",
+            "HOHueiMU39",
+            "HOLGGPad70LTE",
+            "HOLGGPadF80",
+            "HOLGGPadLTE83",
+            "HOLGGPadV4104GLTE(7\")",
+            "HOLGV46KZ",
+            "HOLevoIdabA207",
+            "HOLevoThadHeix",
+            "HOMiftSuce31657",
+            "HONVIAShld",
+            "HONVIATeraNote7LTE",
+            "HONoiaLuia2520Z",
+            "HOPachElnt",
+            "HOPeanIciaTabW501",
+            "HOSamsungGalaxyTab4_8_0",
+            "HOSang80G9",
+            "HOSangATIVSmrtPC",
+            "HOSangGaxyNote101",
+            "HOSangGaxyNote112",
+            "HOSangGaxyNote80",
+            "HOSangGaxyNotePro122",
+            "HOSangGaxyTab270",
+            "HOSangGaxyTab3",
+            "HOSangGaxyTab370",
+            "HOSangGaxyTab3LTE80Z",
+            "HOSangGaxyTab480LTEZ",
+            "HOSangGaxyTab70Z",
+            "HOSangGaxyTabA80",
+            "HOSangGaxyTabS",
+            "HOSangGaxyTabS2",
+            "HOSangGaxyTabSZ",
+            "HOSangHP10Mini",
+            "HOSangtab4101SM15",
+            "HOSonyXpiaTaetZ",
+            "HOTMleEZnkLTE",
+            "HOTMleEvnt101",
+            "HOTMleMF15",
+            "HOTMleMF17",
+            "HOTMleNeksSiraWissMC55",
+            "HOTMleOiooCTM2US",
+            "HOTMleOiooMoel2",
+            "HOTMleTook703G",
+            "HOTMleTookCF30",
+            "HOTMleTookCF31",
+            "HOTMleTrioAXS",
+            "HOTMleoioo3",
+            "HOSamsungGearS",
+            "HOSangGearS2",
+            "HOSangGearS2Clic",
+            "AO_NA_SESSION_11_PRE",
+            "SO_SP_UTT_PRE_V2",
+            "AO_NA_SESSION_12_PRE",
+            "SO_SP_1GB_PRE_V2",
+            "AO_NA_SESSION_13_PRE",
+            "SO_SP_3GB_PRE_V2",
+            "AO_NA_SESSION_14_PRE",
+            "SO_SP_5GB_PRE_V2",
+            "AO_NA_PROMO_02_PRE",
+            "SO_SP_10GB_PRE_V2",
+            "AO_NA_PROMO_01_PRE",
+            "SO_UNASC_02GB_PRE",
+            "AO_SESSION_02_PRE",
+            "SO_UNASC_06GB_PRE",
+            "AO_SESSION_06_PRE",
+            "SO_UNASC_10GB_PRE",
+            "AO_SESSION_07_PRE",
+            "SO_UNASC_14GBCT_PRE",
+            "SO_UNASC_MI_02GB_PRE",
+            "SO_UNASC_MI_06GB_PRE",
+            "SO_UNASC_MI_10GB_PRE",
+            "AO_SESSION_TOURIST_PRE",
+            "SO_UNASC_MI_14GB_PRE",
+            "AO_APPLECARE_PRE",
+            "SO_UNASC_MI_18GB_PRE",
+            "AO_NMID_TR_PRE",
+            "SO_UNASC_MI_22GB_PRE",
+            "AO_NMID_PRE",
+            "SO_NA_NETWORKACCESS",
+            "AO_VTT_TR_PRE",
+            "SO_SC_6GB_PR_PRE",
+            "AO_VTT_PRE",
+            "SO_SC_10GB_PR_PRE",
+            "AO_CB_PRE",
+            "SO_SC_14GBCT_PR_PRE",
+            "SO_PG_30_PRE",
+            "SO_NASC_01GB_PRE",
+            "SO_NASC_03GB_PRE",
+            "SO_NASC_05GB_PRE",
+            "SO_NASC_7GBCT_PRE",
+            "SO_NASC_MI_01GB_PRE",
+            "AO_NA2INTL_LL_PRE",
+            "SO_NASC_MI_03GB_PRE",
+            "AO_NA2INTL_MO_LL_PRE",
+            "SO_NASC_MI_05GB_PRE",
+            "AO_US2INTL_LL_PRE",
+            "SO_NASC_MI_07GB_PRE",
+            "AO_US2INTL_MO_LL_PRE",
+            "SO_NASC_MI_09GB_PRE",
+            "AO_UNLNWSG_PRE",
+            "SO_NASC_MI_11GB_PRE",
+            "AO_MXLNDU_PRE",
+            "SO_NASC_MI_13GB_PRE",
+            "AO_CMCAXU_PRE",
+            "SO_SC_01GB_PRE",
+            "AO_PHP_PRE",
+            "SO_SC_03GB_PRE",
+            "AO_LOOKOUT_PRE",
+            "SO_SC_05GB_PRE",
+            "AO_PASS3P5GB_WM_PRE_LEGACY",
+            "SO_SC_5GBCT_PRE",
+            "AO_PASS5GB_WM_PRE_LEGACY",
+            "SO_SC_7GBCT_PRE",
+            "AO_COURTESY1GB_PRE",
+            "SO_SC_TT_LEGACY",
+            "AO_COURTESY3GB_PRE",
+            "SO_NETWORKACCESS",
+            "AO_COURTESY5GB_PRE",
+            "SO_SP_5GB_PRE",
+            "AO_SCORE_PRE",
+            "SO_SP_3GB_PRE",
+            "AO_BB_BISM_PRE",
+            "SO_SP_1GB_PRE",
+            "AO_PROMO_01_PRE",
+            "SO_SS_2GB_PRE",
+            "AO_PROMO_02_PRE",
+            "SO_SS_PRE",
+            "AO_PASS3GB_PRE_LEGACY",
+            "SO_PD_2Gx200MB_PRE",
+            "AO_PASS5GB_PRE_LEGACY",
+            "SO_PD_2G_PRE",
+            "AO_PASS7GB_PRE_LEGACY",
+            "SO_ULT_LEGACY",
+            "AO_PASS10MB_PRE_LEGACY",
+            "SO_PG_LEGACY",
+            "AO_SESSION_08_PRE",
+            "SO_1500TT_LEGACY",
+            "AO_SESSION_09_PRE",
+            "SO_PD_LEGACY",
+            "AO_DOM_VOICE_30MIN_PRE",
+            "SO_WMLGCY_05GB_PRE",
+            "AO_DOM_VOICE_100MIN_PRE",
+            "SO_UNASC_02GB_PRE_TEST",
+            "AO_ST2MEX_VOICE_100MIN_PRE",
+            "AO_SG_VOICE_100MIN_PRE",
+            "AO_NA_SESSION_08_PRE",
+            "AO_NA_SESSION_09_PRE",
+            "AO_UT_PRE_LEGACY"
+          ]
+        }
+      },
+      "offeringVariant": {
+        "TMOA64289": {
+          "@offeringVariantId": "SKU_TMOA64289",
+          "specificationGroup": [
+            {
+              "specificationValue": [
+                {
+                  "@name": "returnable",
+                  "#text": "true"
+                },
+                {
+                  "@name": "tmoWarranty"
+                },
+                {
+                  "@name": "contractType"
+                }
+              ]
+            }
+          ],
+          "productCondition": "New",
+          "color": "Smoke",
+          "aem-sku-enhancements": {
+            "dealBadge": "off",
+            "dealText": "",
+            "startDate": "",
+            "endDate": "",
+            "displayBanner": "",
+            "bestSellerBanner": "",
+            "highestRatedBanner": "",
+            "featuredBanner": "",
+            "customBanner": "",
+            "customBannerText": "",
+            "bannerStartDate": "",
+            "bannerEndDate": ""
+          }
+        },
+        "TMOA64290": {
+          "@offeringVariantId": "SKU_TMOA64290",
+          "specificationGroup": [
+            {
+              "specificationValue": [
+                {
+                  "@name": "returnable",
+                  "#text": "true"
+                },
+                {
+                  "@name": "tmoWarranty"
+                },
+                {
+                  "@name": "contractType"
+                }
+              ]
+            }
+          ],
+          "productCondition": "New",
+          "color": "Aqua",
+          "aem-sku-enhancements": {
+            "dealBadge": "off",
+            "dealText": "",
+            "startDate": "",
+            "endDate": "",
+            "displayBanner": "",
+            "bestSellerBanner": "",
+            "highestRatedBanner": "",
+            "featuredBanner": "",
+            "customBanner": "",
+            "customBannerText": "",
+            "bannerStartDate": "",
+            "bannerEndDate": ""
+          }
+        }
+      },
+      "totalReviews": "0",
+      "totalReviewsRate": "0",
+      "aem-offer-enhancements": {
+        "dealBadge": "off",
+        "dealText": "Default",
+        "startDate": "",
+        "endDate": "",
+        "displayBanner": "",
+        "bestSellerBanner": "",
+        "highestRatedBanner": "",
+        "featuredBanner": "",
+        "customBanner": "",
+        "customBannerText": "",
+        "bannerStartDate": "",
+        "bannerEndDate": ""
+      }
+    },
+    "screenSizes": {},
+    "conditions": "New|New",
+    "internalMemorySizes": "",
+    "features": "",
+    "searchableColors": "Grey|Grey|Grey|Grey|Green|Green|Green|Green",
+    "skus": "TMOA64289|TMOA64290",
+    "tacCodes": "",
+    "bestSeller": "false",
+    "isFeatured": "false",
+    "rating": "0",
+    "reviewCount": "0",
+    "pageViews": "0.0"
+  }
+}

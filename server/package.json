@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc server.ts --target es5",
+    "start": "node server.js",
+    "transpile": "./node_modules/.bin/tsc --sourcemap --module commonjs",
+    "preinstall": "typings install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "elasticsearch": "^11.0.1",
+    "express": "^4.14.0",
+    "graphql": "^0.6.2",
+    "rx": "^4.1.0",
+    "rxjs": "^5.0.0-beta.10",
+    "typescript": "^1.8.10",
+    "underscore": "^1.8.3",
+    "ws": "^1.1.1"
+  }
+}

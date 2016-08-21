@@ -1,0 +1,106 @@
+<div class="jumbotron">
+    <h1>GraphQL Sample</h1>
+    <p>This is a demonstration of Graphql with Angular 2.</p>
+    <p>GraphQL is a frontend centric framework that replaces REST calls on the UI.</p>
+    <p>Basically the UI queries the Facade Layer with whatever x params they want with y arguments.</p>
+</div>
+<br>
+<div class="container">
+    <div>
+        <h2>Todos <small>Example of Mutations</small></h2>
+        <label>Name</label>
+        <input [(ngModel)]="newItem" name="item">
+    </div>
+    <button (click)="addTodo(newItem)">Add Item</button>
+    <button (click)="getTodos()">Query Todo</button>
+    <br>
+    <div>
+        <p>TODO:</p>
+        <ul>
+            <li *ngFor="let todo of todos">{{todo}}</li>
+        </ul>
+    </div>
+    <br>
+    <div>
+        <h2>User <small>Sample User Query </small></h2>
+        <label>ID:</label>
+        <input [(ngModel)]="id" name="id">
+        <button (click)="getUser(id)">Get User</button>
+        <br>
+        Params User
+        <br>
+        <label>
+            Name: <input name="user" type="checkbox" [(ngModel)]="queryUserOptions.name">
+        </label>
+        <label>
+            Email: <input name="user" type="checkbox" [(ngModel)]="queryUserOptions.email">
+        </label>
+        <label>
+            Age: <input name="user" type="checkbox" [(ngModel)]="queryUserOptions.age">
+        </label>
+        <label>
+            Score: <input name="user" type="checkbox" [(ngModel)]="queryUserOptions.score">
+        </label>
+        <br>
+        <label>
+            Selected User:
+            <div *ngIf="user">
+                <div [innerHtml]="user | prettyprint"></div>
+            </div>
+
+        </label>
+    </div>
+    <div>
+        <h2>Products <small>Reduce Size of Payloads</small></h2>
+        <p>GraphQL is designed to reduce the size of the payload</p>
+        <label>Product ID:</label>
+        <p>Try: HOSangGaxyS6ede+InioNGPFlleCase</p>
+        <input [(ngModel)]="productId" placeholder="HOSangGaxyS6ede+InioNGPFlleCase" name="productId">
+        <button (click)="getProduct(productId)">Get Product</button>
+        <br>
+        Params Products
+        <br>
+        <label>familyId: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.familyId"></label>
+        <label>familyName: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.familyName"></label>
+        <label>categories: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.categories"></label>
+        <label>categoryName: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.categoryName"></label>
+        <label>offerType: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.offerType"></label>
+        <label>offerSubType: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.offerSubType"></label>
+        <label>offerLevel: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.offerLevel"></label>
+        <label>productType: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.productType"></label>
+        <label>productSubType: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.productSubType"></label>
+        <label>url: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.url"></label>
+        <label>productName: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.productName"></label>
+        <label>productManufacturer: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.productManufacturer"></label>
+        <label>description: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.description"></label>
+        <label>longDescription: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.longDescription"></label>
+        <label>priority: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.priority"></label>
+        <label>operatingSystem: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.operatingSystem"></label>
+        <label>screenSizes: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.screenSizes"></label>
+        <label>conditions: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.conditions"></label>
+        <label>internalMemorySizes: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.internalMemorySizes"></label>
+        <label>features: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.features"></label>
+        <label>tacCodes: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.tacCodes"></label>
+        <label>bestSeller: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.bestSeller"></label>
+        <label>isFeatured: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.isFeatured"></label>
+        <label>rating: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.rating"></label>
+        <label>reviewCount: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.reviewCount"></label>
+        <label>pageViews: <input name="product" type="checkbox" [(ngModel)]="queryProductOptions.pageViews"></label>
+        <br>
+        <label>
+            Selected Product:
+            <div *ngIf="product">
+                <div [innerHtml]="product | prettyprint"></div>
+            </div>
+        </label>
+        <p>GraphQL maintaining payload</p>
+
+        <br>
+        <p>Click to see payload without GraphQL: </p>
+        <label>Full Product: <div *ngIf="showFullPayLoad" [innerHtml]="fullPayLoad | prettyprint"></div></label>
+        <button type="button" class="btn btn-default" (click)="toggleFullPayLoad()">Toggle</button>
+    </div>
+</div>
+
+<p *ngIf="error">Error: {{error}}</p>
+

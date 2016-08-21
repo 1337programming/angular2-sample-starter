@@ -1,0 +1,21 @@
+{
+  "name": "angular2-sample-starter",
+  "version": "1.0.0",
+  "description": "Sample Angular 2 Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd server/ && npm run start && cd ..",
+    "client": "cd client/ && npm run start && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1337programming/angular2-sample-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1337programming/angular2-sample-starter/issues"
+  },
+  "homepage": "https://github.com/1337programming/angular2-sample-starter#readme"
+}
