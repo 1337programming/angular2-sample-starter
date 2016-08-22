@@ -8,7 +8,7 @@ let FullPayLoad = require('./full-payload.json');
 let style = require('!!raw!sass!./graphql-sample.scss');
 
 @Component({
-  selector: 'home',
+  selector: '',
   template: require('./graphql-sample.html'),
   styles: [style],
   providers: [GraphQLService],

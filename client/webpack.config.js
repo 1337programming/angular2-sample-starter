@@ -18,6 +18,9 @@ if (argv.prod) {
   }));
 } else {
   dest = path.join(__dirname, '.tmp');
+  config.plugins.push(new webpack.optimize.CommonsChunkPlugin({
+    name: ['app', 'vendor', 'polyfill', 'head']
+  }));
 }
 
 config.debug = !!argv.debug;
@@ -34,8 +37,10 @@ config.node = {
   fs: "empty"
 };
 config.entry = {
-  app: path.join('./src/app/app.js'),
-  head: path.join('./src/app/head.js')
+  app: path.join('./src/app/main.ts'),
+  head: path.join('./src/app/head.js'),
+  polyfill: path.join('./src/app/polyfill.ts'),
+  vendor: path.join('./src/app/vendor.ts')
 };
 
 config.output = {

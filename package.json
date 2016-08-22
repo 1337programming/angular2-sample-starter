@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/1337programming/angular2-sample-starter/issues"
   },
-  "homepage": "https://github.com/1337programming/angular2-sample-starter#readme"
+  "homepage": "https://github.com/1337programming/angular2-sample-starter#readme",
+  "dependencies": {
+    "@angular/forms": "^0.3.0"
+  }
 }

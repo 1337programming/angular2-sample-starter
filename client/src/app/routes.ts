@@ -1,15 +1,18 @@
-import {provideRouter, RouterConfig} from '@angular/router';
-import {GraphQLComponent} from './components/graphql-sample/graphql-sample-component';
+import {Routes, RouterModule}   from '@angular/router';
+import {GraphQLComponent} from './pages/graphql-sample/graphql-sample-component';
+import {LoginComponent} from './pages/login/login-component';
+import {WorkBenchComponent} from './pages/workbench/workbench-component';
 
-export const routes:RouterConfig = [
+
+const routes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '/login',
     terminal: true
   },
-  {path: 'home', component: GraphQLComponent}
+  {path: 'sample', component: GraphQLComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'workbench', component: WorkBenchComponent}
 ];
 
-export const APP_ROUTER_PROVIDERS = [
-  provideRouter(routes)
-];
+export const routing = RouterModule.forRoot(routes);

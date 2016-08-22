@@ -1,0 +1,79 @@
+$enable-flex: true;
+$enable-transition: true;
+$body-bg: lighten(black, 90%);
+$card-bg: #FEFEFE;
+$card-cap-bg: #DDD;
+$enable-rounded: false;
+
+//Colors
+$theme-color: 	#C19A6B;    //Lion!
+
+$gray-dark: darken($theme-color, 50%);
+$gray: darken($theme-color, 40%);
+$gray-light: $theme-color;
+$gray-lighter: lighten($theme-color, 20%);
+$gray-lightest: lighten($theme-color, 30%);
+
+$brand-primary:             #0275d8 !default;
+$brand-success:             #5cb85c !default;
+$brand-info:                #5bc0de !default;
+$brand-warning:             #f0ad4e !default;
+$brand-danger:              #d9534f !default;
+
+table > thead {
+  background-color: $card-cap-bg;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+//@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+/**
+ * the sticky footer mixin
+ **/
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote(".container"), $footer-selector: unquote("#footer")) {
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #{$wrapper-selector} {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$container-selector} {
+      padding: 0 0 $footer-height 0;
+    }
+  }
+  #{$footer-selector} {
+    height: $footer-height;
+  }
+}
+
+/**
+ * the sticky footer implementation
+ **/
+@include sticky-footer(30px);
+
+
+html,body,#wrapper,.container,#footer {
+  width:100%;
+}
+#wrapper {
+  background: #FFFFFF;
+}
+
+#footer {
+  background: #20170d;
+}
