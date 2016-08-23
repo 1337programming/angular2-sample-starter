@@ -1,0 +1,79 @@
+<p>Record Page, PONum{{PONum}}</p>
+
+<div class="container-fluid">
+    <div class="row">
+        <p-dataTable [value]="records" [rows]="5" [paginator]="true" [globalFilter]="gb" [responsive]="true"
+                     selectionMode="single" [(selection)]="selectedCar1">
+            <header>Sample Records</header>
+            <p-column field="buyer" header="Buyer">
+            </p-column>
+            <p-column field="sku" header="Sku"></p-column>
+            <p-column field="vpn" header="Vpn"></p-column>
+            <p-column field="description" header="Description"></p-column>
+            <p-column field="ssa" header="Primary SSA" class="myclass">
+                <template let-col let-record="rowData">
+                    <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                        <button type="button" class="btn btn-sm btn-default">Left</button>
+                        <button type="button" class="btn btn-sm btn-default">Middle</button>
+                        <button type="button" class="btn btn-sm btn-default">Right</button>
+                    </div>
+
+                </template>
+            </p-column>
+            <p-column field="cancelShipDate" header="Cancel Shipping Date"></p-column>
+            <p-column field="prepro.val" header="Pre Pro">
+                <template let-col let-record="rowData">
+                    <input type="checkbox" aria-label="...">
+                </template>
+            </p-column>
+            <p-column field="prepro.date" header="Pre Pro Needed by">
+                <template let-col let-record="rowData">
+                    <style>input{
+                        max-width: 50px;
+                    }</style>
+                    <p-calendar [(ngModel)]="date1" class="myCal" showAnim="slideDown"></p-calendar>
+                </template>
+            </p-column>
+            <p-column field="top.val" header="Top">
+                <template let-col let-record="rowData">
+                    <input type="checkbox" aria-label="...">
+                </template>
+            </p-column>
+            <p-column field="top.date" header="Top Needed By">
+                <template let-col let-record="rowData">
+                    <p-calendar [(ngModel)]="date2" showAnim="slideDown"></p-calendar>
+                </template>
+            </p-column>
+        </p-dataTable>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default" ><i class="fa fa-remove"></i>
+                        Exit
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default"><i class="fa fa-download"></i> Export CSV</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default" (click)="showDialog()"><i class="fa fa-check"></i> Create Sample</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Dialog Model -->
+<p-dialog header="Exit" [(visible)]="display" modal="modal" showEffect="fade" [responsive]="true">
+    <p>You have unsaved changes. Do you wish to proceed?</p>
+    <footer>
+        <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+            <button type="button" pButton icon="fa-close" (click)="display=false" label="No"></button>
+            <button type="button" pButton icon="fa-check" (click)="createSample()" label="Yes"></button>
+        </div>
+    </footer>
+</p-dialog>

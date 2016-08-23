@@ -12,15 +12,18 @@ import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {GraphQLComponent} from './pages/graphql-sample/graphql-sample-component';
 import {LoginComponent} from './pages/login/login-component';
 import {WorkBenchComponent} from './pages/workbench/workbench-component';
-import {FooterComponent} from './common/components/footer/footer-component';
-import {NavbarComponent} from './common/components/navbar/navbar-component';
-import {DataTableModule,SharedModule} from 'primeng/primeng';
+import {RecordComponent} from './pages/workbench/components/record/record-component';
+import {ReviewComponent} from './pages/workbench/components/review/review-component';
+import {
+  DataTableModule, SharedModule, CalendarModule, AutoCompleteModule,
+  DropdownModule, DialogModule, ButtonModule
+} from 'primeng/primeng';
 
 @NgModule({
-  imports: [BrowserModule, ReactiveFormsModule, routing, FormsModule,
-    HttpModule, DataTableModule,SharedModule],
+  imports: [BrowserModule, ReactiveFormsModule, routing, FormsModule, DropdownModule,
+    HttpModule, DataTableModule, SharedModule, CalendarModule, AutoCompleteModule, DialogModule, ButtonModule],
   declarations: [AppComponent, GraphQLComponent, LoginComponent,
-    WorkBenchComponent],
+    WorkBenchComponent, RecordComponent, ReviewComponent],
   providers: [
     {provide: LocationStrategy, useClass: HashLocationStrategy}
   ],

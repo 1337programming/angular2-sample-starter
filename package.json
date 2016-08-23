@@ -4,6 +4,8 @@
   "description": "Sample Angular 2 Starter",
   "main": "index.js",
   "scripts": {
+    "preinstall": "cd client && npm install && typings install",
+    "install": "cd server && npm install && typings install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "cd server/ && npm run start && cd ..",
     "client": "cd client/ && npm run start && cd .."
@@ -17,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/1337programming/angular2-sample-starter/issues"
   },
-  "homepage": "https://github.com/1337programming/angular2-sample-starter#readme",
-  "dependencies": {
-    "@angular/forms": "^0.3.0"
-  }
+  "homepage": "https://github.com/1337programming/angular2-sample-starter#readme"
 }
